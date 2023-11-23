@@ -1,0 +1,121 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+/* NAVBAR */
+#logo {
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.703);
+}
+
+body {
+    background-image: url(fundo.jpg);
+    background-repeat: round;
+    background-position: cover;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-link {
+    font-family: 'Barlow', sans-serif;
+    color: white;
+
+    margin-right: 5rem;
+}
+
+.nav-link:hover {
+
+    color: rgb(196, 0, 1);
+
+}
+.icon-navbar {
+    width: 18px;
+    margin-right: 10px;
+    }
+/*conteudo*/
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.texto{
+    padding-top: 10px;
+}
+.conteudo2 {
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagens{
+    width: 600px;
+    height: auto;
+}
+
+/*rodape*/
+
+.rodape {
+    background-color: rgba(0, 0, 0, 0.703);
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+}
+.icone{
+    margin-right: 10px;
+}
+
+
+
+@media (max-width:550px), (orientation: portrait){
+
+    .texto{
+        font-size: 12px;
+    }
+    .titulo {
+        font-size: 18px;
+        padding-bottom: 20px;
+
+    }
+    .imagens{
+    width: 300px;
+    }
+    .conteudo2 {
+        padding: 1rem;
+    }
+}
+
+@media (min-width:700px){
+    .texto{
+        font-size: 18px;
+    }
+    .titulo {
+        font-size: 20px;
+        padding-bottom: 20px;
+
+    }
+    .imagens{
+        width: 500px;
+     }
+}
